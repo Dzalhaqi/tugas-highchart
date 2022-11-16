@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="highcharts/code/highcharts.js"></script>
+    <script src="highcharts/code/highcharts-more.js"></script>
+    <title>Dashboard HighChart JS</title>
+  </head>
+
+  <body>
+    <div class="outer-wrapper flex justify-center flex-wrap">
+      <h1 class="font-bold text-4xl mt-16 text-center max-w-5xl">
+        Dashboard Analisa Bahan Pangan dan Komoditi di Provinsi Jakarta
+      </h1>
+      <div class="dashboard w-11/12 lg:w-full flex justify-center my-16">
+        <div class="wrapper bg-[#fafafa] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-6 rounded-lg max-w-5xl w-full">
+          <div class="flex justify-center mx-auto mb-5" id="pie-chart-container">
+          </div>
+
+          <div class="flex justify-center mx-auto my-5" id="scatter-chart-container">
+          </div>
+
+          <div class="flex justify-center mx-auto my-5" id="boxplot-container">
+          </div>
+
+          <div class="flex justify-center mx-auto my-5" id="bar-chart-container">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
