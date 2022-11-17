@@ -125,7 +125,7 @@ Highcharts.chart('boxplot-container', {
   },
 
   title: {
-    text: 'Highcharts Box Plot Example'
+    text: 'Rata-rata Konsumsi Kedelai, Gandum, dan Jagung per Hari Tahun 2019 (kg)'
   },
 
   legend: {
@@ -163,7 +163,7 @@ Highcharts.chart('bar-chart-container', {
     type: 'column'
   },
   title: {
-    text: 'Harga Beras, Gandum, dan Jagung tiap Tahun (per Kg)'
+    text: 'Rata-rata harga Beras, Gula, dan Minyak Tahun 2018 (per Kg)'
   },
   subtitle: {
     text: 'Source: Open Data Jakarta'
